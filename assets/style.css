@@ -19,6 +19,14 @@ body {
     background-color: rgb(228, 228, 228);
 }
 
+.d-flex {
+    display: flex;
+}
+
+.align-items-center {
+    align-items: center;
+}
+
 
 /* Header */
 
@@ -32,7 +40,7 @@ header {
     justify-content: space-between;
 }
 
-button {
+.h-btn {
     background-color: #1adca1;
     border-radius: 10px;
     height: 40px;
@@ -47,6 +55,16 @@ header .search input {
     border-radius: 3px;
     border: none;
 }
+
+header #search {
+    height: 40px;
+}
+
+
+/* header button #search {
+    height: 10px;
+    right: 0;
+} */
 
 
 /* Aside */
@@ -69,7 +87,7 @@ section {
     display: flex;
     flex-shrink: 0;
     align-items: center;
-    justify-content: center;
+    /* justify-content: center; */
     height: 80px;
     padding: 10px;
     margin: 10px;
